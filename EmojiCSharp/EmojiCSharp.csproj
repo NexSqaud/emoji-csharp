@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>EmojiCSharp</RootNamespace>
+    <Authors>NexSqaud</Authors>
+    <Description>Ported emoji library from https://github.com/iris2iris/iris-emoji-java</Description>
+    <PackageTags>emoji, emoji-csharp, parse emoji</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="emojis.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="emojis.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
