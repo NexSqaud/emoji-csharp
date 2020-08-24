@@ -6,6 +6,7 @@
     <Authors>NexSqaud</Authors>
     <Description>Ported emoji library from https://github.com/iris2iris/iris-emoji-java</Description>
     <PackageTags>emoji, emoji-csharp, parse emoji</PackageTags>
+    <RepositoryUrl>https://github.com/NexSqaud/emoji-csharp</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
