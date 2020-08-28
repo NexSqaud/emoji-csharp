@@ -7,9 +7,9 @@ Ported emoji library from [iris:emoji-java](https://github.com/iris2iris/iris-em
 Via NuGet:
 
 - Manage NuGet Packages: Search and install EmojiCSharp
-- Package Manager: Install-Package EmojiCSharp -Version 1.0.0
-- .NET CLI: dotnet add package EmojiCSharp --version 1.0.0
-- PackageReference: `<PackageReference Include="EmojiCSharp" Version="1.0.0" />`
+- Package Manager: Install-Package EmojiCSharp -Version 1.0.1
+- .NET CLI: dotnet add package EmojiCSharp --version 1.0.1
+- PackageReference: `<PackageReference Include="EmojiCSharp" Version="1.0.1" />`
 
 ## How to use it?
 
