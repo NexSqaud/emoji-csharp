@@ -136,7 +136,7 @@ namespace EmojiCSharp
             List<EmojiResult> replacements = GetEmojis(input);
             foreach(var candidate in replacements)
             {
-                builder.Append(input, prev, candidate.StartIndex);
+                builder.Append(input, prev, candidate.StartIndex - prev);
                 builder.Append(transformer.Transform(candidate));
                 prev = candidate.LastIndex;
             }
